@@ -1,0 +1,104 @@
+
+
+  * {
+    font-family: Arial, Helvetica, sans-serif;
+      padding: 0;
+      margin: 0;
+  }
+  
+  
+  body {
+      background-color: #ededed;
+  
+  }
+  
+  .container {
+    background-color: white;
+    height: 1100px;
+      max-width: 1100px;
+      margin: auto;
+  }
+  
+  .banner {
+  max-height: 400px;
+  width: 100%;
+  background-image:url('https://i.picsum.photos/id/667/1200/400.jpg?hmac=4d90qOpb1cAO6-xdZVaFOKcPC8d2lyHBmY8uqynh-Uw') ;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding-top: 300px;
+  }  
+  
+  .left {
+  padding-left:20px ;
+  
+  }
+  
+  .right {
+    display: flex;
+   flex-direction: column;
+   text-align: right;
+  
+  }
+  
+  ul li a{
+  text-decoration: none;
+  color: white;
+  
+  }
+  
+  ul li {
+  
+  padding-bottom: 10px;
+  padding-right:  10px; ;
+  display: block;
+  float: right;
+  }
+  
+  .header {
+  text-align: center;
+  width: 400px;
+  margin-left: 320px;
+  padding: 20px;
+  }
+  
+  .header h1 {
+    padding: 20px;
+  
+  
+  }
+  
+  .header p {
+    color: gray;
+  }
+  
+  
+  td {
+    padding-left: 20px;
+  }
+  
+  .Ttekst{
+  width: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: grey;
+  }
+  
+  .Ttitle {
+  font-size: 18px;
+    color: teal;
+  }
+  
+  .price {
+  color: teal;
+  }
+  
+  .nimi {
+  color: grey;
+  text-align: center;
+  margin-top: 100px;
+  }
+  
+
+  
