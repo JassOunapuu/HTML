@@ -24,105 +24,270 @@
   <body>
 
 
-  
+  <nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Team</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-primary" href="#">Login</a>
+        </li>
+      </ul>
     </div>
+    <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+    <a class="nav-link" href="#"><i class="fab fa-github"></i></a>
+    <a class="nav-link" href="#"><i class="fa-solid fa-pizza-slice"></i></a>
+  </div>
+</nav>
     
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid container">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-            <div class="navbar-collapse collapse" id="navbarTogglerDemo01">
-              <div class="row justify-content-between">
-                <div class="col">
-            <div class="navbar-collapse">
-              <ul class="navbar-nav">
-              <li class="nav-item">
-                  <a class="nav-link btn btn-primary" href="#">Login</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-dark" aria-current="page" href="#">Avaleht</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Epood</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Kassa</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Kontakt</a>
-                </li>
-                
-              </ul>
-            </div>
-            </div>
-            <div class="col ">
-            <div class="collapse navbar-collapse w-100 order-1 order-md-0 dual-collapse2" >
-                <a class="navbar-brand" href="#"><i class="fa-solid fa-pizza-slice"></i> Kartul</a>
-              </div>
-              </div>
-              </div>
-          </div>
-        </div>
-    </nav>
 
 
-      
-     
-
-      
-
-      <div class="p-5 mb-4 bg-light jumbo">
-        <div class="container-fluid py-5 container">
-          <h1 class="display-1">Olen väga tark</h1>
-          <p class="fs-6">Using a series of utilities, you can create this jumbotron</p>
+      <div class="p-5 mb-4 bg-light jumbo jumbotron-fluid">
+        <div class="container-fluid py-5 container text-end">
+          <h1 class="display-4">See on paremal</h1>
+          <p class="fs-6">Using a series of utilities, you can create this jumbotron.</p>
+          <div class="">
+    <a href="#" class="btn btn-primary btn-lg">Get started now</a>
+    <a href="#" class="btn btn-light btn-outline-primary btn-lg">
+      <i class="fas fa-play"></i> Watch video
+    </a>
+  </div>
+</div>
+</div>
+<div class="container">
+  <div class="row mt-5 mb-5">
+    <div class="col-md-6">
+      <div class="d-flex align-items-center mb-3">
+        <span class="fa-stack fa-3x me-3">
+          <i class="fa-regular fa-gem fa-stack-1x text-primary"></i>
+        </span>
+        <div>
+          <h3 class="mb-3">Feature Title</h3>
+          <p>Use Dropbox to save things in the "cloud" because throwing things away is stressful and this way you don't have to.</p>
         </div>
       </div>
-    
+      <div class="d-flex align-items-center mb-3">
+        <span class="fa-stack fa-3x me-3">
+          <i class="fa-regular fa-gem fa-stack-1x text-primary"></i>
+        </span>
+        <div>
+          <h3 class="mb-3">Feature Title</h3>
+          <p>Use Dropbox to save things in the "cloud" because throwing things away is stressful and this way you don't have to.</p>
+        </div>
+      </div>
+      <div class="d-flex align-items-center">
+        <span class="fa-stack fa-3x me-3">
+          <i class="fa-regular fa-gem fa-stack-1x text-primary"></i>
+        </span>
+        <div>
+          <h3 class="mb-3">Feature Title</h3>
+          <p>Use Dropbox to save things in the "cloud" because throwing things away is stressful and this way you don't have to.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="d-flex align-items-center mb-3">
+        <span class="fa-stack fa-3x me-3">
+          <i class=" fa-regular fa-gem fa-stack-1x text-primary"></i>
+        </span>
+        <div>
+          <h3 class="mb-3">Feature Title</h3>
+          <p>Use Dropbox to save things in the "cloud" because throwing things away is stressful and this way you don't have to.</p>
+        </div>
+      </div>
+      <div class="d-flex align-items-center mb-3">
+        <span class="fa-stack fa-3x me-3">
+          <i class="fa-regular fa-gem fa-stack-1x text-primary"></i>
+        </span>
+        <div>
+          <h3 class="mb-3">Feature Title</h3>
+          <p>Use Dropbox to save things in the "cloud" because throwing things away is stressful and this way you don't have to.</p>
+        </div>
+      </div>
+      <div class="d-flex align-items-center">
+        <span class="fa-stack fa-3x me-3">
+          <i class="fa-regular fa-gem fa-stack-1x text-primary"></i>
+        </span>
+        <div>
+          <h3 class="mb-3">Feature Title</h3>
+          <p>Use Dropbox to save things in the "cloud" because throwing things away is stressful and this way you don't have to.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
       <div class="container">
-    
-    
-      <h1 class="text-center">Meie teenused</h1>
+      <h1 class="text-center">Product Features</h1>
       <div class="row">
-<div class="col text-center"><i class="fa-solid fa-leaf fa-5x text-primary"></i><h4>Lorem ipsum</h4>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis excepturi laborum reprehenderit sed, veritatis tempora odit. Iusto asperiores, ea autem laudantium officiis praesentium eius perferendis dolores, voluptate corporis nemo est.</p>
-<a href="#" class="text-decoration-none">loe edasi</a>
-</div>
-<div class="col text-center"><i class="fa-solid fa-leaf fa-5x text-success"></i><h4>Lorem ipsum</h4>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis excepturi laborum reprehenderit sed, veritatis tempora odit. Iusto asperiores, ea autem laudantium officiis praesentium eius perferendis dolores, voluptate corporis nemo est.</p>
-  <a href="#" class="text-decoration-none">loe edasi</a>
+      <div class="col text-center">
+      <div class="container">
+  <div class="row align-items-center">
+    <div class="col">
+
+ <div class="col mb-3">
+      <div class="card h-100">
+        <div class="card-body d-flex align-items-center">
+          <div>
+            <h5 class="card-title text-start">Card Title</h5>
+            <p class="card-text text-start">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          <div class="ms-auto text-primary">
+            <i class="fas fa-tint fa-2x"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+      <div class="col mb-3">
+      <div class="card h-100">
+        <div class="card-body d-flex align-items-center">
+          <div>
+            <h5 class="card-title text-start">Card Title</h5>
+            <p class="card-text text-start">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          <div class="ms-auto text-primary">
+            <i class="fas fa-tint fa-2x"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col mb-3">
+      <div class="card h-100">
+        <div class="card-body d-flex align-items-center">
+          <div>
+            <h5 class="card-title text-start">Card Title</h5>
+            <p class="card-text text-start">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          <div class="ms-auto text-primary">
+            <i class="fas fa-tint fa-2x"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
 
 </div>
-<div class="col text-center"><i class="fa-solid fa-leaf fa-5x text-warning"></i><h4>Lorem ipsum</h4>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis excepturi laborum reprehenderit sed, veritatis tempora odit. Iusto asperiores, ea autem laudantium officiis praesentium eius perferendis dolores, voluptate corporis nemo est.</p>
-<a href="#" class="text-decoration-none">loe edasi</a>
-</div>
+<div class="col text-center">
+  
+<img src="https://picsum.photos/400/700" alt="nimi">
+
+
 </div>
 
-<h1 class="text-center">Meie tehtud tööd</h1>
-<div class="row">
-<div class="col">
-<ul><img src="https://picsum.photos/150/150" class="rounded-circle" alt="pilt"></ul>
-<ul><img src="https://picsum.photos/150/150" class="rounded-circle" alt="pilt"></ul>
-<ul><img src="https://picsum.photos/150/150" class="rounded-circle" alt="pilt"></ul>
+
+<div class="col text-center">
+<div class="col mb-3">
+      <div class="card h-100">
+        <div class="card-body d-flex align-items-center">
+          <div>
+            <h5 class="card-title text-start">Card Title</h5>
+            <p class="card-text text-start">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          <div class="ms-auto text-primary">
+            <i class="fas fa-tint fa-2x"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <div class="col mb-3">
+      <div class="card h-100">
+        <div class="card-body d-flex align-items-center">
+          <div>
+            <h5 class="card-title text-start">Card Title</h5>
+            <p class="card-text text-start">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          <div class="ms-auto text-primary">
+            <i class="fas fa-tint fa-2x"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col mb-3">
+      <div class="card h-100">
+        <div class="card-body d-flex align-items-center">
+          <div>
+            <h5 class="card-title text-start">Card Title</h5>
+            <p class="card-text text-start">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          <div class="ms-auto text-primary">
+            <i class="fas fa-tint fa-2x"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
 </div>
-<div class="col">
-  <ul><img src="https://picsum.photos/150/150" class="rounded-circle" alt="pilt"></ul>
-<ul><img src="https://picsum.photos/150/150" class="rounded-circle" alt="pilt"></ul>
-<ul><img src="https://picsum.photos/150/150" class="rounded-circle" alt="pilt"></ul>
 </div>
-<div class="col">
-  <ul><img src="https://picsum.photos/150/150" class="rounded-circle" alt="pilt"></ul>
-<ul><img src="https://picsum.photos/150/150" class="rounded-circle" alt="pilt"></ul>
-<ul><img src="https://picsum.photos/150/150" class="rounded-circle" alt="pilt"></ul>
-</div>
-<div class="col">
-  <ul><img src="https://picsum.photos/150/150" class="rounded-circle" alt="pilt"></ul>
-<ul><img src="https://picsum.photos/150/150" class="rounded-circle" alt="pilt"></ul>
-<ul><img src="https://picsum.photos/150/150" class="rounded-circle" alt="pilt"></ul>
-</div>
+  
+<h1 class="text-center mt-5">Recent projects</h1>
+<p class="text-center mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam at obcaecati sint eligendi repudiandae nemo, consectetur rem exercitationem cupiditate. Omnis enim soluta eligendi explicabo cumque ad consectetur fuga, nemo in?</p>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <figure>
+        <img src="https://picsum.photos/400/300" alt="Image 1" class="img-fluid">
+        <figcaption class="text-muted text-start">A caption for the above image </figcaption>
+      </figure>
+      <figure>
+        <img src="https://picsum.photos/400/300" alt="Image 2" class="img-fluid">
+        <figcaption class="text-muted text-start">A caption for the above image </figcaption>
+      </figure>
+    </div>
+    <div class="col-md-4">
+      <figure>
+        <img src="https://picsum.photos/400/300" alt="Image 3" class="img-fluid">
+        <figcaption class="text-muted text-start">A caption for the above image </figcaption>
+      </figure>
+      <figure>
+        <img src="https://picsum.photos/400/300" alt="Image 4" class="img-fluid">
+        <figcaption class="text-muted text-start">A caption for the above image </figcaption>
+      </figure>
+    </div>
+    <div class="col-md-4">
+      <figure>
+        <img src="https://picsum.photos/400/300" alt="Image 5" class="img-fluid">
+        <figcaption class="text-muted text-start">A caption for the above image </figcaption>
+      </figure>
+      <figure>
+        <img src="https://picsum.photos/400/300" alt="Image 6" class="img-fluid">
+        <figcaption class="text-muted text-start">A caption for the above image </figcaption>
+      </figure>
+    </div>
+  </div>
 </div>
 
+
+
+<h1 class="text-center mt-5">Blueprints</h1>
+<p class="text-center mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam at obcaecati sint eligendi repudiandae nemo, consectetur rem exercitationem cupiditate. Omnis enim soluta eligendi explicabo cumque ad consectetur fuga, nemo in?</p>
 
     
 
