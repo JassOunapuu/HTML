@@ -290,6 +290,108 @@
 <p class="text-center mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam at obcaecati sint eligendi repudiandae nemo, consectetur rem exercitationem cupiditate. Omnis enim soluta eligendi explicabo cumque ad consectetur fuga, nemo in?</p>
 
     
+<div class="container">
+  <div class="row mt-5">
+    <div class="col">
+      <h3 class="text-center">Siin on raha</h5>
+          <p class="mb-2 text-muted text-center fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+    <div class="col-md-6 col-lg-4">
+      <div class="card mb-4">
+        <div class="card-body">
+          <h1 class="card-title text-center">777€</h1>
+          <h6 class="card-subtitle mb-2 text-muted text-center">Business plan</h6>
+          <p class="card-text text-gray text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+          <a href="#" class="btn btn-primary d-block mx-auto">Select</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-6 col-lg-4 offset-md-3 offset-lg-0">
+      <div class="card mb-4">
+        <div class="card-body">
+          <h1 class="card-title text-center">77€</h1>
+          <h6 class="card-subtitle mb-2 text-muted text-center">Personal plan</h6>
+          <p class="card-text text-gray text-center">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+          <a href="#" class="btn btn-primary d-block mx-auto">Select</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<style>
+    .card {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .card-1 {
+        border-right: none;
+    }
+    
+    .card-2 {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        margin-top: -20px;
+        z-index: 1;
+    }
+    
+    .card-3 {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        margin-top: 20px;
+    }
+</style>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <h2>Basic Plan</h2>
+            <p>$10/month</p>
+            <ul>
+                <li>5 GB Storage</li>
+                <li>5 Users</li>
+                <li>10 Projects</li>
+            </ul>
+            <a href="#" class="btn btn-primary">Get Started</a>
+        </div>
+        <div class="col-md-4 card card-2">
+            <h2>Pro Plan</h2>
+            <p>$25/month</p>
+            <ul>
+                <li>10 GB Storage</li>
+                <li>10 Users</li>
+                <li>20 Projects</li>
+                <li>Priority Support</li>
+            </ul>
+            <a href="#" class="btn btn-primary">Get Started</a>
+        </div>
+        <div class="col-md-4 card card-3">
+            <h2>Premium Plan</h2>
+            <p>$50/month</p>
+            <ul>
+                <li>50 GB Storage</li>
+                <li>Unlimited Users</li>
+                <li>Unlimited Projects</li>
+                <li>Priority Support</li>
+                <li>24/7 Assistance</li>
+            </ul>
+            <a href="#" class="btn btn-primary">Get Started</a>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
 
     
     </div>
